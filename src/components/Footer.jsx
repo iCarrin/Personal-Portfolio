@@ -1,11 +1,17 @@
-
+import './Footer.css'
 function Footer(){
     return(
         <footer>
-            <a href="">
-                <img src="" alt="" />
-            </a>
-            <p>&copy {new Date().getFullYear()} Really Big Penguin CO.</p>
+            <p>&copy; {new Date().getFullYear()} Isaiah Carrin</p>
+            <div className="links">
+                <a href="https://www.linkedin.com/in/isaiah-carrin/">
+                    <img className="footer-icon" src="src\assets\icons8-linkedin.svg" alt="icon for Linkden" />
+                </a>
+                <a href="https://github.com/iCarrin">
+                    <img className="footer-icon" src="src\assets\icons8-github.svg" alt="icon for GitHub" />
+                </a>
+            </div>
+            
         </footer>
     );
 }

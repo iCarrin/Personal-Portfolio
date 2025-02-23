@@ -3,8 +3,11 @@ function Hero(){
 
     return(
         <div>
-            <img className="hero-image" src="src/assets/react.svg" alt="Hero Image" />
+            <div className="image-container">
+                <img className="hero-image" src="src\assets\background hero image.jpg" alt="Hero Image" />
+            </div>
             <h1 className="text">Isaiah Carrin <br/>Brigham Young University - Idaho</h1>
+            {/* <hl className="gradient"></hl> */}
         </div>
     );
 }

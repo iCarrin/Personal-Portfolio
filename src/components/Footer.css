@@ -1,0 +1,17 @@
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+.links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  
+}
+.footer-icon{
+    width: 3rem;
+ 
+}

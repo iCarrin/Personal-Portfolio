@@ -6,11 +6,11 @@ function Card(props){
     const projectName = props.projectName;
     const description = props.description;
     const link = props.link;
-    const [image, changeImage] = useState(props.image);
+    const [image, changeImage] = useState(props.cartoonImage);
     const [classImage, changeStyle] = useState("card-cartoon-image");
 
     return(
-        <div className="card" onMouseEnter={() => {changeImage(realImage); changeStyle("card-real-image");}} onMouseLeave={() => {changeImage(cartoonImage); changeStyle("card-cartoon-image");}} >
+        <div className="card" onMouseEnter={() => {changeStyle("card-real-image"); changeImage(realImage);}} onMouseLeave={() => {changeImage(cartoonImage); changeStyle("card-cartoon-image");}} >
             <img className={classImage} src={image} alt="Project picture" />
             <h2 className="card-title"> 
                 <a className="gitHub-link" href={link}>

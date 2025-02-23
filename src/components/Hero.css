@@ -1,8 +1,37 @@
+div{
+    user-select: none;
+}
 .hero-image{
-    width: 100%;
+    width:110%;
+    margin-left: -5%;
+    margin-top:-6%;
+
+}
+.image-container{
+    position: relative;
+    display: inline-block;
+    
+}
+.image-container::after{
+    content: "";
+    position: absolute;
+    bottom: -29.3%;
+    left: 0;
+    width:110%;
+    margin-left: -5%;
+    z-index: -1;
+    height: 30%;
+    background: linear-gradient(to bottom, hsl(0, 0%, 0%), hsl(0, 0%, 100%));
 }
 .text{
     position: absolute;
     font-size: 8rem;
-    margin-top: -60%;
+    margin-top: -55%;
+    color: white;
+       
 }
+/* .gradient{
+    width: 100%;
+    position: absolute;
+    
+} */
