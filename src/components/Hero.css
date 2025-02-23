@@ -1,0 +1,8 @@
+.hero-image{
+    width: 100%;
+}
+.text{
+    position: absolute;
+    font-size: 8rem;
+    margin-top: -60%;
+}
