@@ -10,12 +10,12 @@ function App(){
                             {title:"Other Jobs", timePeriod:"2013 - 2025", location:"Georgia Idaho Utah", description:"I don't have any industry related work yet to put up here, but I've had a job since I was 15. I've worked all over in just about everything, so some skills are bound to be important. (customer relations, sales, creative problem solving, etc)"},
                           ];
   const paragraphList = ["I grew up in Georgia but after serving a proselyting mission for the Church of Jesus Christ of Latter-Day Saint I moved out to Idaho for college, and that's still where I currently live.",
-                          "I have the ability to add another paragarph here dynamically, but I can't think of anything to put."];
+                          "I have the ability to add another paragraph here dynamically, but I can't think of anything to put."];
 
     
   return(
     <>
-      <Header/>
+      <Header about="#About"/>
       <div id="Home">
         <Hero/>
       </div>

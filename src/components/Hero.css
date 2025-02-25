@@ -41,7 +41,7 @@
         margin-top:-20%;
     }
     .image-container::after{
-        bottom: -38%;
+        bottom: -58%;
         /* background: linear-gradient(to bottom, hsl(0, 87%, 46%), hsl(249, 73%, 42%)); */
 
     }
@@ -52,7 +52,7 @@
         font-size:  clamp(.8rem, 5.5vw, 6rem);;
     }
     .image-container::after{
-        bottom: -35%;
+        bottom: -55%;
         /* background: linear-gradient(to bottom, hsl(123, 83%, 45%), hsl(302, 46%, 56%)); */
 
     }
