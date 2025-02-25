@@ -1,30 +1,28 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This web page was designed as a personal portfolio to show off all of the project I make (this page it's self kid of doubled that number).
 
-{Provide a description of your app.  Describe how to use the app.}
-
-{Describe your purpose for creating this app.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
+I also made this page as a way for me to get some practice using react which I've been learning.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the app}
+In making this web page I programed entirely in VSCode, and got a lot of help from ChatGPT.
 
-{Describe the programming language that you used and any libraries.}
-
+As far as programming languages go I used JavaScriptXML, CSS, and HTML
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+This complete guide was my bread and butter when making this project.
+* [Bro Code - React Full Course for free ⚛️ (2024)](https://www.youtube.com/watch?v=CgkZ7MvWUAA)
+I ripped off the design choices from Isaac Gluck's personal website. I didn't copy or even look at any of his code, but I stole the look of his website. 
+* [Isaac Gluck](https://isaacgluck.com/)
+
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+
+* 1) Fill out experience to be more descriptive
+* 2) Add more of my projects
+* 3) fill out my about me section thoroughly
+* 4) Have a contact me section (Also inspired from Isaac)
