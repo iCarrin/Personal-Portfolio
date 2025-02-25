@@ -34,7 +34,7 @@ function App(){
               description="In C# I made a program that stores plant's needs and recommend plants based on the garden's conditions and other plants already in the garden. It stores the plant's data as strings, but the gardens are stored as JSON data"/>
         <Card 
               cartoonImage="./src/assets/website.png" 
-              realImage="./src/assets/react.svg" 
+              realImage="src\assets\web page real.jpg" 
               projectName="Portfolio Web Page" 
               link="#Home"
               description="This is the site you're looking at. I created this as a way to delve into React. I got a lot of practice making this. I used just the classing HTML, CSS, JavaScript, and some built in React functions"/>

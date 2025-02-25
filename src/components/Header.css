@@ -9,11 +9,17 @@ header{
     z-index: 1000;
 
 }
+.name{
+    font-size:1.6em;
+    padding: 0;
+    margin: 1% 2%;
+}
 .links{
     display: flex;
     flex-direction: row;
     list-style: none;
     padding-inline-start: 0px;
+    font-size: 1.2em;
     
     /* justify-content: space-between; */
 }

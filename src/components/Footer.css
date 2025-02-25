@@ -4,6 +4,9 @@ footer{
     justify-content: space-between;
     padding: 0 8%;
 }
+p{
+    font-size: 1.4em;
+}
 .links{
     display:flex;
     flex-direction: row;
