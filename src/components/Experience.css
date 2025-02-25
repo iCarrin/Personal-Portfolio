@@ -26,11 +26,12 @@
 .title{
     
     align-self: center;
-    font-size: 1.6em;
+    font-size: 2em;
 }
 .description{
     border-left: 2px solid hsl(0, 0%, 38%) ;
     padding: 0 4% 0 4%;
+    font-size: 1.2em;
 }
 
 @media screen and (min-width: 550px) {

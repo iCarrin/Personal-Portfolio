@@ -1,23 +1,29 @@
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
+import About_me from './components/About_me.jsx'
 import Card from './components/Card.jsx';
 import ExperienceList from './components/ExperienceList.jsx';
 import Footer from './components/Footer.jsx'
-import './App.css'
+
 function App(){
-  const experienceList5 = [ {title:"BYU-I", timePeriod:"2026", location:"Rexburg, ID", description:"Getting my bachelor's degree in computer science with an emphasis in machine learning."},
+  const experienceList = [  {title:"BYU-I", timePeriod:"2026", location:"Rexburg, ID", description:"Getting my bachelor's degree in computer science with an emphasis in machine learning."},
                             {title:"Other Jobs", timePeriod:"2013 - 2025", location:"Georgia Idaho Utah", description:"I don't have any industry related work yet to put up here, but I've had a job since I was 15. I've worked all over in just about everything, so some skills are bound to be important. (customer relations, sales, creative problem solving, etc)"},
                           ];
+  const paragraphList = ["I grew up in Georgia but after serving a proselyting mission for the Church of Jesus Christ of Latter-Day Saint I moved out to Idaho for college, and that's still where I currently live.",
+                          "I have the ability to add another paragarph here dynamically, but I can't think of anything to put."];
 
-
+    
   return(
     <>
       <Header/>
       <div id="Home">
         <Hero/>
       </div>
+      <div id="About">
+        <About_me image="src\assets\ME.jpg" paragraphs={paragraphList}/>
+      </div>
       <div id="Experience">
-        <ExperienceList  experiences={experienceList5}/>
+        <ExperienceList  experiences={experienceList}/>
       </div>
       <div id="Projects">
         <Card 

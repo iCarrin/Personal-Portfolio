@@ -19,8 +19,8 @@
   
   .card .card-cartoon-image{
     border-radius: 50%;
-    max-width: 60%;
-    height:26vb;
+    width: 60%;
+    height: 60%;
     margin-bottom:  10px;
     
     
@@ -28,9 +28,8 @@
   }
    .card .card-real-image{
     border-radius: 25%;
-    max-width: 85%;
-    height:26vb;
-  
+    width: 72%;
+    height: 72%;
     margin-bottom:  10px;
     
     
