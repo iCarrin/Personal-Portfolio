@@ -8,7 +8,6 @@ function Experience(props){
 
     return(
         <>
-            
             <li className="experience">
                 <div className="line"></div>
                 <div className="specifics">

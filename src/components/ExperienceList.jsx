@@ -1,6 +1,5 @@
 import './ExperienceList.css'
 import Experience from './Experience';
-// import './ExperienceList.css'
 function ExperienceList(props){
     const experiences = props.experiences;
     const listExperiences = experiences.map((exp, index) => (

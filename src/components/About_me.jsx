@@ -13,7 +13,6 @@ function About_me(props){
                 {paragraphList}
             </div>
         </div>
-
     );
 }
 export default About_me
