@@ -4,7 +4,7 @@ This web page was designed as a personal portfolio to show off all of the projec
 
 I also made this page as a way for me to get some practice using react which I've been learning.
 
-[Demo Video](https://youtu.be/UbPvfzao2Qs)
+[Software Demo Video](https://youtu.be/IG4L4A6t0A4)
 
 # Development Environment
 
@@ -15,8 +15,12 @@ As far as programming languages go I used JavaScriptXML, CSS, and HTML
 
 This complete guide was my bread and butter when making this project.
 * [Bro Code - React Full Course for free ⚛️ (2024)](https://www.youtube.com/watch?v=CgkZ7MvWUAA)
+
 I ripped off the design choices from Isaac Gluck's personal website. I didn't copy or even look at any of his code, but I stole the look of his website. 
 * [Isaac Gluck](https://isaacgluck.com/)
+
+This is where I got my lower page icons and some of my project cartoon images
+* [icons8.com](https://icons8.com/)
 
 
 # Future Work
@@ -26,3 +30,4 @@ I ripped off the design choices from Isaac Gluck's personal website. I didn't co
 * 2) Add more of my projects
 * 3) fill out my about me section thoroughly
 * 4) Have a contact me section (Also inspired from Isaac)
+* 5) Stop my image from squashing
