@@ -1,4 +1,8 @@
 html {
     scroll-padding-top: 70px; /* Adjust this based on navbar height */
+    
   }
-  
+body{
+  margin-left: 0px;
+  margin-right: 0px;
+}

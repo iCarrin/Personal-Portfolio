@@ -4,6 +4,7 @@ import About_me from './components/About_me.jsx'
 import Card from './components/Card.jsx';
 import ExperienceList from './components/ExperienceList.jsx';
 import Footer from './components/Footer.jsx'
+import './App.css'
 
 function App(){
   const experienceList = [  {title:"BYU-I", timePeriod:"2026", location:"Rexburg, ID", description:"Getting my bachelor's degree in computer science with an emphasis in machine learning."},
@@ -38,6 +39,30 @@ function App(){
               projectName="Portfolio Web Page" 
               link="#Home"
               description="This is the site you're looking at. I created this as a way to delve into React. I got a lot of practice making this. I used just the classing HTML, CSS, JavaScript, and some built in React functions"/>
+        <Card 
+              cartoonImage="./src/assets/garden-icon-design-free-vector.jpg" 
+              realImage="" 
+              projectName="Holder" 
+              link=""
+              description=""/>
+        <Card 
+              cartoonImage="./src/assets/garden-icon-design-free-vector.jpg" 
+              realImage="" 
+              projectName="Holder" 
+              link=""
+              description=""/>
+        <Card 
+              cartoonImage="./src/assets/garden-icon-design-free-vector.jpg" 
+              realImage="" 
+              projectName="Holder" 
+              link=""
+              description=""/>
+        <Card 
+              cartoonImage="./src/assets/garden-icon-design-free-vector.jpg" 
+              realImage="" 
+              projectName="Holder" 
+              link=""
+              description=""/>              
       </div>
       <Footer/>
       {/* hero image - I want an interactive background
@@ -53,7 +78,14 @@ function App(){
         card
       trivia about me
       contact me
-      footer */}
+      footer 
+      
+      
+      scuttle
+      DNA
+      Habitlings
+      one ML class project> nah
+      google tasks api*/}
 
     </>
   );

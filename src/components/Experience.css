@@ -1,3 +1,5 @@
+
+
 .experience{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -8,12 +10,13 @@
     user-select: none;
 }
 .line{
+    --line-width : 8px;
     position: absolute;
-    width: 11%; /* Adjust line length */
-    height: 8px; /* Line thickness */
+    width: 100%; /* Adjust line length*/
+    height: var(--line-width); /* Line thickness */
     background-color: hsl(0, 0%, 38%);
-    margin-left: -11%; /* Space between line and object */
-    top: calc(50% - 8px);
+    margin-left: 8vw; /* Space between line and object */
+    top: calc(50% - var(--line-width));
 }
 .specifics{
     display: grid;

@@ -1,14 +1,14 @@
 
 .image-container{
-    position: relative;
+    position:relative;
     display: inline-block;
     user-select: none;
     
 }
 
 .hero-image{
-    width:110%;
-    margin-left: -5%;
+    width:100vw;
+    /* margin-left: -5%; */
     margin-top:-15%;
     
 }
