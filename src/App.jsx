@@ -4,6 +4,19 @@ import About_me from './components/About_me.jsx'
 import Card from './components/Card.jsx';
 import ExperienceList from './components/ExperienceList.jsx';
 import Footer from './components/Footer.jsx'
+import headshot from ".\public\headshot.jpg"
+import dnaCartoon from "./public/dna.png"
+import dnaReal from ".\public\DNA real picture.jpg"
+import recipeCartoon from "./public/recipe-book.png"
+import recipeReal from ".\public\scuttle real.jpg"
+import checklistCartoon from "./public/checklist.png"
+import habitlingReal from ".\public\Habitlings.jpg" 
+import gardenCartoon from "./public/garden-icon-design-free-vector.jpg"
+import gardenReal from "./public/Garden Planner real.jpg"
+import websiteCartoon from "./public/website.png"
+import websiteReal from ".\public\web page real.jpg"
+import tasksCartoon from "./public/code.png"
+import tasksReal from ".\public\Google tasks.jpg"
 import './App.css'
 
 function App(){
@@ -22,7 +35,7 @@ function App(){
         <Hero/>
       </div>
       <div id="About">
-        <About_me image=".\public\headshot.jpg" paragraphs={paragraphList}/>
+        <About_me image={headshot} paragraphs={paragraphList}/>
       </div>
       <div id="Experience">
         <ExperienceList  experiences={experienceList}/>
@@ -30,42 +43,42 @@ function App(){
       <div id="Projects">          
 
         <Card 
-              cartoonImage="./public/dna.png" 
+              cartoonImage={dnaCartoon} 
               // Freepik on flaticon.com https://www.flaticon.com/authors/freepik
-              realImage=".\public\DNA real picture.jpg" 
+              realImage= {dnaReal}
               projectName="DNA Primer Multiplexer" 
               link="https://github.com/EldonBird/Bio_dpt"
               description="Finding SNP specific primers that can all replicate without interfering with one another. I've worked as a devops, a project manager finally the project lead."/>
         <Card 
-              cartoonImage="./public/recipe-book.png" 
+              cartoonImage={recipeCartoon}
               // Freepik on flaticon.com https://www.flaticon.com/authors/freepik
-              realImage=".\public\scuttle real.jpg" 
+              realImage={recipeReal}
               projectName="Scuttle" 
               link="https://github.com/celeste-wahlquist/2025_I-Hack"
               description="Hackathon project that scrapped recipes from the web to be used to generate meal plans and shopping lists from those meal plans. Unfinished"/>
         <Card 
-              cartoonImage="./public/checklist.png" 
+              cartoonImage={checklistCartoon}
               // Shashank Singh on flaticon.com  https://www.flaticon.com/authors/Shashank
-              realImage=".\public\Habitlings.jpg" 
+              realImage={habitlingReal}
               projectName="Habitlings" 
               link="https://github.com/iCarrin/Habitlings"
               description="A habit tracker that uses tamagotchi like pets who die if you don't keep up with them. Only image and check boxes ever implemented."/> 
         <Card 
-              cartoonImage="./public/garden-icon-design-free-vector.jpg" 
-              realImage="./public/Garden Planner real.jpg" 
+              cartoonImage={gardenCartoon}
+              realImage={gardenReal}
               projectName="Garden Planner" 
               link="https://github.com/iCarrin/CSE-210---code-templates/tree/main/Garden%20Planner/Sandbox"
               description="In C# I made a program that stores plant's needs and recommend plants based on the garden's conditions and other plants already in the garden. It stores the plant's data as strings, but the gardens are stored as JSON data"/>
         <Card 
-              cartoonImage="./public/website.png" 
-              realImage=".\public\web page real.jpg" 
+              cartoonImage={websiteCartoon}
+              realImage={websiteReal}
               projectName="Portfolio Web Page" 
               link="#Home"
               description="This is the site you're looking at. I created this as a way to delve into React. I got a lot of practice making this. I used just the classing HTML, CSS, JavaScript, and some built in React functions"/>
         <Card 
-              cartoonImage="./public/code.png" 
+              cartoonImage={tasksCartoon}
               //Shahid-Mehmood on flaticon.com  https://www.flaticon.com/authors/Shahid-Mehmood
-              realImage=".\public\Google tasks.jpg" 
+              realImage={tasksReal}
               projectName="Google tasks API experiment" 
               link="https://github.com/iCarrin/google-tasks-api-practice"
               description="Drew up a quick Google tasks editor to practice working with API's, and google OAuth"/>
