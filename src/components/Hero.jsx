@@ -1,4 +1,4 @@
-import heroImage from "./public/background hero image.jpg"
+import heroImage from './public/background hero image.jpg'
 import './Hero.css'
 function Hero(){
 
