@@ -1,14 +1,14 @@
 
 .image-container{
-    position: relative;
+    position:relative;
     display: inline-block;
     user-select: none;
     
 }
 
 .hero-image{
-    width:110%;
-    margin-left: -5%;
+    width:100vw;
+    /* margin-left: -5%; */
     margin-top:-15%;
     
 }
@@ -23,6 +23,7 @@
     height: 60%;
     background: linear-gradient( hsl(0, 0%, 0%), hsl(0, 0%, 100%));
 }
+
 .text{
     position: absolute;
     font-size:  clamp(.8rem, 6vw, 5rem);
@@ -37,9 +38,9 @@
 }
 
 @media screen and (max-width: 866px){
-    .hero-image{
+    /* .hero-image{
         margin-top:-20%;
-    }
+    } */
     .image-container::after{
         bottom: -58%;
         /* background: linear-gradient(to bottom, hsl(0, 87%, 46%), hsl(249, 73%, 42%)); */
@@ -47,7 +48,7 @@
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .text{
         font-size:  clamp(.8rem, 5.5vw, 6rem);;
     }
