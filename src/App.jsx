@@ -21,7 +21,7 @@ function App(){
         <Hero/>
       </div>
       <div id="About">
-        <About_me image="src\assets\ME.jpg" paragraphs={paragraphList}/>
+        <About_me image="src\assets\headshot.jpg" paragraphs={paragraphList}/>
       </div>
       <div id="Experience">
         <ExperienceList  experiences={experienceList}/>
@@ -39,30 +39,39 @@ function App(){
               projectName="Portfolio Web Page" 
               link="#Home"
               description="This is the site you're looking at. I created this as a way to delve into React. I got a lot of practice making this. I used just the classing HTML, CSS, JavaScript, and some built in React functions"/>
+
+                    {/* scuttle
+      DNA
+      Habitlings
+      google tasks api */}
         <Card 
-              cartoonImage="./src/assets/garden-icon-design-free-vector.jpg" 
-              realImage="" 
-              projectName="Holder" 
-              link=""
-              description=""/>
+              cartoonImage="./src/assets/dna.png" 
+              // Freepik on flaticon.com https://www.flaticon.com/authors/freepik
+              realImage="\src\assets\DNA real picture.jpg" 
+              projectName="DNA Primer Multiplexer" 
+              link="https://github.com/EldonBird/Bio_dpt"
+              description="Finding SNP specific primers that can all replicate without interfering with one another. I've worked as a devops, a project manager finally the project lead."/>
         <Card 
-              cartoonImage="./src/assets/garden-icon-design-free-vector.jpg" 
-              realImage="" 
-              projectName="Holder" 
-              link=""
-              description=""/>
+              cartoonImage="./src/assets/code.png" 
+              //Shahid-Mehmood on flaticon.com  https://www.flaticon.com/authors/Shahid-Mehmood
+              realImage="\src\assets\Google tasks.jpg" 
+              projectName="Google tasks API experiment" 
+              link="https://github.com/iCarrin/google-tasks-api-practice"
+              description="Drew up a quick Google tasks editor to practice working with API's, and google OAuth"/>
         <Card 
-              cartoonImage="./src/assets/garden-icon-design-free-vector.jpg" 
-              realImage="" 
-              projectName="Holder" 
-              link=""
-              description=""/>
+              cartoonImage="./src/assets/checklist.png" 
+              // Shashank Singh on flaticon.com  https://www.flaticon.com/authors/Shashank
+              realImage="\src\assets\Habitlings.jpg" 
+              projectName="Habitlings" 
+              link="https://github.com/iCarrin/Habitlings"
+              description="A habit tracker that uses tamagotchi like pets who die if you don't keep up with them. Only image and check boxes ever implemented."/>           
         <Card 
-              cartoonImage="./src/assets/garden-icon-design-free-vector.jpg" 
-              realImage="" 
-              projectName="Holder" 
-              link=""
-              description=""/>              
+              cartoonImage="./src/assets/recipe-book.png" 
+              // Freepik on flaticon.com https://www.flaticon.com/authors/freepik
+              realImage="\src\assets\scuttle real.jpg" 
+              projectName="Scuttle" 
+              link="https://github.com/celeste-wahlquist/2025_I-Hack"
+              description="Hackathon project that scrapped recipes from the web to be used to generate meal plans and shopping lists from those meal plans"/>      
       </div>
       <Footer/>
       {/* hero image - I want an interactive background
@@ -81,11 +90,7 @@ function App(){
       footer 
       
       
-      scuttle
-      DNA
-      Habitlings
-      one ML class project> nah
-      google tasks api*/}
+*/}
 
     </>
   );
