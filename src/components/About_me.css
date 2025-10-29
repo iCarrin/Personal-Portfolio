@@ -5,14 +5,32 @@
     align-content: center;
 }
 .my-image{
-    max-width: 30%;
+    width: 30%;
+    min-width: 300px;
     margin-top: 12%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    height: auto;
+    height: 40%;
     border: 3px inset #cc5500;
 }
 .describe-me-words{
     max-width: 40%;
     margin-top: 17%;
     font-size: 1.3rem;
+}
+@media screen and (max-width: 550px) {
+    .about-me-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image{
+        width: 50%;
+        height: auto;
+        margin-top: 15%;
+    }
+    .describe-me-words{
+        max-width: 80%;
+        margin-top: 6%;
+        font-size: 1.1rem;
+        text-align: center;
+    }
 }
