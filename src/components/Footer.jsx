@@ -1,6 +1,6 @@
 import './Footer.css'
-import linkden from './public/icons8-linkedin.svg'
-import github from './public/icons8-github.svg'
+import linkden from '../assets/icons8-linkedin.svg'
+import github from '../assets/icons8-github.svg'
 function Footer(){
     return(
         <footer>
