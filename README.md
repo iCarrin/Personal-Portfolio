@@ -1,10 +1,11 @@
 # Overview
 
-This web page was designed as a personal portfolio to show off all of the project I make (this page it's self kid of doubled that number).
+[This web]{https://icarrin.github.io/Personal-Portfolio/} page was designed as a personal portfolio to show off all of the project I make (this page it's self kid of doubled that number).
 
 I also made this page as a way for me to get some practice using react which I've been learning.
 
 [Software Demo Video](https://youtu.be/IG4L4A6t0A4)
+
 
 # Development Environment
 
